@@ -9,21 +9,28 @@
 /* Begin PBXBuildFile section */
 		49E607B4290D44660048BDD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E607B3290D44660048BDD5 /* AppDelegate.swift */; };
 		49E607B6290D44660048BDD5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E607B5290D44660048BDD5 /* SceneDelegate.swift */; };
-		49E607B8290D44660048BDD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E607B7290D44660048BDD5 /* ViewController.swift */; };
+		49E607B8290D44660048BDD5 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E607B7290D44660048BDD5 /* ChatViewController.swift */; };
 		49E607BB290D44660048BDD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49E607B9290D44660048BDD5 /* Main.storyboard */; };
 		49E607BD290D44690048BDD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49E607BC290D44690048BDD5 /* Assets.xcassets */; };
 		49E607C0290D44690048BDD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49E607BE290D44690048BDD5 /* LaunchScreen.storyboard */; };
+		49E607CD290D48670048BDD5 /* WelcomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E607CC290D48670048BDD5 /* WelcomViewController.swift */; };
+		49E607CF290D48820048BDD5 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E607CE290D48820048BDD5 /* RegisterViewController.swift */; };
+		49E607D1290D48BA0048BDD5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E607D0290D48BA0048BDD5 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		49E607B0290D44660048BDD5 /* FlashTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49E607B3290D44660048BDD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49E607B5290D44660048BDD5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		49E607B7290D44660048BDD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49E607B7290D44660048BDD5 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		49E607BA290D44660048BDD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		49E607BC290D44690048BDD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49E607BF290D44690048BDD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49E607C1290D44690048BDD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49E607C8290D45A40048BDD5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		49E607CC290D48670048BDD5 /* WelcomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomViewController.swift; sourceTree = "<group>"; };
+		49E607CE290D48820048BDD5 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		49E607D0290D48BA0048BDD5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +47,7 @@
 		49E607A7290D44660048BDD5 = {
 			isa = PBXGroup;
 			children = (
+				49E607C8290D45A40048BDD5 /* README.md */,
 				49E607B2290D44660048BDD5 /* FlashTalk */,
 				49E607B1290D44660048BDD5 /* Products */,
 			);
@@ -58,13 +66,40 @@
 			children = (
 				49E607B3290D44660048BDD5 /* AppDelegate.swift */,
 				49E607B5290D44660048BDD5 /* SceneDelegate.swift */,
-				49E607B7290D44660048BDD5 /* ViewController.swift */,
-				49E607B9290D44660048BDD5 /* Main.storyboard */,
+				49E607CB290D460B0048BDD5 /* Models */,
+				49E607C9290D45D90048BDD5 /* Views */,
+				49E607CA290D45F30048BDD5 /* Controllers */,
 				49E607BC290D44690048BDD5 /* Assets.xcassets */,
 				49E607BE290D44690048BDD5 /* LaunchScreen.storyboard */,
 				49E607C1290D44690048BDD5 /* Info.plist */,
 			);
 			path = FlashTalk;
+			sourceTree = "<group>";
+		};
+		49E607C9290D45D90048BDD5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				49E607B9290D44660048BDD5 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		49E607CA290D45F30048BDD5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				49E607CC290D48670048BDD5 /* WelcomViewController.swift */,
+				49E607CE290D48820048BDD5 /* RegisterViewController.swift */,
+				49E607D0290D48BA0048BDD5 /* LoginViewController.swift */,
+				49E607B7290D44660048BDD5 /* ChatViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		49E607CB290D460B0048BDD5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +173,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49E607B8290D44660048BDD5 /* ViewController.swift in Sources */,
+				49E607D1290D48BA0048BDD5 /* LoginViewController.swift in Sources */,
+				49E607B8290D44660048BDD5 /* ChatViewController.swift in Sources */,
+				49E607CF290D48820048BDD5 /* RegisterViewController.swift in Sources */,
 				49E607B4290D44660048BDD5 /* AppDelegate.swift in Sources */,
 				49E607B6290D44660048BDD5 /* SceneDelegate.swift in Sources */,
+				49E607CD290D48670048BDD5 /* WelcomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
