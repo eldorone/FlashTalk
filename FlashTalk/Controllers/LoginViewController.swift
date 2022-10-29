@@ -22,7 +22,7 @@ class LoginViewController: UIViewController {
                 if let errorMessage = error {
                     print(errorMessage)
                 } else {
-                    //Navigate to the ChatViewController
+                    //Navigate to the ChatViewController through the LoginViewController
                     self.performSegue(withIdentifier: "LoginToChat", sender: self)
                 }
             }
