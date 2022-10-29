@@ -371,11 +371,6 @@
             <point key="canvasLocation" x="-86.153846153846146" y="134.36018957345971"/>
         </scene>
     </scenes>
-    <designables>
-        <designable name="E0C-6B-zuS">
-            <size key="intrinsicContentSize" width="284" height="60"/>
-        </designable>
-    </designables>
     <inferredMetricsTieBreakers>
         <segue reference="Sbw-7p-VXF"/>
     </inferredMetricsTieBreakers>
