@@ -16,6 +16,7 @@
 		49E607CD290D48670048BDD5 /* WelcomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E607CC290D48670048BDD5 /* WelcomViewController.swift */; };
 		49E607CF290D48820048BDD5 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E607CE290D48820048BDD5 /* RegisterViewController.swift */; };
 		49E607D1290D48BA0048BDD5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E607D0290D48BA0048BDD5 /* LoginViewController.swift */; };
+		49E607D3290D83BE0048BDD5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49E607D2290D83BE0048BDD5 /* GoogleService-Info.plist */; };
 		64152B56931FB96BA5118754 /* Pods_FlashTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB2870B02F71C821C9F7642 /* Pods_FlashTalk.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		49E607CC290D48670048BDD5 /* WelcomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomViewController.swift; sourceTree = "<group>"; };
 		49E607CE290D48820048BDD5 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		49E607D0290D48BA0048BDD5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		49E607D2290D83BE0048BDD5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BEFAEA211E145ACDBA4AD7D7 /* Pods-FlashTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlashTalk.release.xcconfig"; path = "Target Support Files/Pods-FlashTalk/Pods-FlashTalk.release.xcconfig"; sourceTree = "<group>"; };
 		EAB2870B02F71C821C9F7642 /* Pods_FlashTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlashTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -87,6 +89,7 @@
 				49E607BC290D44690048BDD5 /* Assets.xcassets */,
 				49E607BE290D44690048BDD5 /* LaunchScreen.storyboard */,
 				49E607C1290D44690048BDD5 /* Info.plist */,
+				49E607D2290D83BE0048BDD5 /* GoogleService-Info.plist */,
 			);
 			path = FlashTalk;
 			sourceTree = "<group>";
@@ -123,7 +126,6 @@
 				48C9A66F3200C0DB07926869 /* Pods-FlashTalk.debug.xcconfig */,
 				BEFAEA211E145ACDBA4AD7D7 /* Pods-FlashTalk.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -138,7 +140,6 @@
 				49E607AC290D44660048BDD5 /* Sources */,
 				49E607AD290D44660048BDD5 /* Frameworks */,
 				49E607AE290D44660048BDD5 /* Resources */,
-				9314B1801223D749487973A9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -188,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49E607C0290D44690048BDD5 /* LaunchScreen.storyboard in Resources */,
+				49E607D3290D83BE0048BDD5 /* GoogleService-Info.plist in Resources */,
 				49E607BD290D44690048BDD5 /* Assets.xcassets in Resources */,
 				49E607BB290D44660048BDD5 /* Main.storyboard in Resources */,
 			);
@@ -196,23 +198,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9314B1801223D749487973A9 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FlashTalk/Pods-FlashTalk-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FlashTalk/Pods-FlashTalk-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlashTalk/Pods-FlashTalk-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		F7F85A96F644FDC39C8379EA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -408,7 +393,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.eldoralikuvatov.FlashTalk;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eldoralikuvvatov.FlashTalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -437,7 +422,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.eldoralikuvatov.FlashTalk;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eldoralikuvvatov.FlashTalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

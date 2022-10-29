@@ -5,6 +5,7 @@ target 'FlashTalk' do
 
   # Pods for FlashTalk
   
-  pod 'CLTypingLabel', '~> 0.4.0'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
   
 end
