@@ -16,19 +16,17 @@ class LoginViewController: UIViewController {
 
     @IBAction func loginPressed(_ sender: UIButton) {
         if let email = emailTextfield.text, let password = passwordTextfield.text {
-            Auth.auth().signIn(withEmail: email, password: password) { [weak self] authResult, error in
-              guard let strongSelf = self else { return }
+            
+            Auth.auth().signIn(withEmail: email, password: password) { authResult, error in
                 
                 if let errorMessage = error {
                     print(errorMessage)
                 } else {
                     //Navigate to the ChatViewController
-                    self?.performSegue(withIdentifier: "LoginToChat", sender: self)
+                    self.performSegue(withIdentifier: "LoginToChat", sender: self)
                 }
             }
-                
-            }
         }
-    
+    }
 }
 
