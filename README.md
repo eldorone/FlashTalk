@@ -1,5 +1,7 @@
 #  FlashTalk
 
+FlashTalk is a simple iOS Mobile Application written in Swift and is a an internet based messaging app similar to WhatsApp, the popular messaging app that was bought by Facebook for $22 billion. The app will give you the simplest interface where you can chat casually with your friends.
+
 
 Constants
 
