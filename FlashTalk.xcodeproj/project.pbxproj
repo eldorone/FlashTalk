@@ -16,9 +16,11 @@
 		49E607CD290D48670048BDD5 /* WelcomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E607CC290D48670048BDD5 /* WelcomViewController.swift */; };
 		49E607CF290D48820048BDD5 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E607CE290D48820048BDD5 /* RegisterViewController.swift */; };
 		49E607D1290D48BA0048BDD5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E607D0290D48BA0048BDD5 /* LoginViewController.swift */; };
+		64152B56931FB96BA5118754 /* Pods_FlashTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB2870B02F71C821C9F7642 /* Pods_FlashTalk.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		48C9A66F3200C0DB07926869 /* Pods-FlashTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlashTalk.debug.xcconfig"; path = "Target Support Files/Pods-FlashTalk/Pods-FlashTalk.debug.xcconfig"; sourceTree = "<group>"; };
 		49E607B0290D44660048BDD5 /* FlashTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49E607B3290D44660048BDD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49E607B5290D44660048BDD5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,6 +33,8 @@
 		49E607CC290D48670048BDD5 /* WelcomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomViewController.swift; sourceTree = "<group>"; };
 		49E607CE290D48820048BDD5 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		49E607D0290D48BA0048BDD5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BEFAEA211E145ACDBA4AD7D7 /* Pods-FlashTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlashTalk.release.xcconfig"; path = "Target Support Files/Pods-FlashTalk/Pods-FlashTalk.release.xcconfig"; sourceTree = "<group>"; };
+		EAB2870B02F71C821C9F7642 /* Pods_FlashTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlashTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,18 +42,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64152B56931FB96BA5118754 /* Pods_FlashTalk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EF03D217DB0462C5CFA0BD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAB2870B02F71C821C9F7642 /* Pods_FlashTalk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		49E607A7290D44660048BDD5 = {
 			isa = PBXGroup;
 			children = (
 				49E607C8290D45A40048BDD5 /* README.md */,
 				49E607B2290D44660048BDD5 /* FlashTalk */,
 				49E607B1290D44660048BDD5 /* Products */,
+				7D285E12FF6C8AB15BFDBFA4 /* Pods */,
+				1EF03D217DB0462C5CFA0BD3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +117,16 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		7D285E12FF6C8AB15BFDBFA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48C9A66F3200C0DB07926869 /* Pods-FlashTalk.debug.xcconfig */,
+				BEFAEA211E145ACDBA4AD7D7 /* Pods-FlashTalk.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,9 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49E607C4290D44690048BDD5 /* Build configuration list for PBXNativeTarget "FlashTalk" */;
 			buildPhases = (
+				F7F85A96F644FDC39C8379EA /* [CP] Check Pods Manifest.lock */,
 				49E607AC290D44660048BDD5 /* Sources */,
 				49E607AD290D44660048BDD5 /* Frameworks */,
 				49E607AE290D44660048BDD5 /* Resources */,
+				9314B1801223D749487973A9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,6 +194,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9314B1801223D749487973A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlashTalk/Pods-FlashTalk-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlashTalk/Pods-FlashTalk-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlashTalk/Pods-FlashTalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7F85A96F644FDC39C8379EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlashTalk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		49E607AC290D44660048BDD5 /* Sources */ = {
@@ -320,6 +389,7 @@
 		};
 		49E607C5290D44690048BDD5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48C9A66F3200C0DB07926869 /* Pods-FlashTalk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -348,6 +418,7 @@
 		};
 		49E607C6290D44690048BDD5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEFAEA211E145ACDBA4AD7D7 /* Pods-FlashTalk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

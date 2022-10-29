@@ -12,7 +12,7 @@
         <!--Welcome View Controller-->
         <scene sceneID="UPb-Qv-sTW">
             <objects>
-                <viewController id="kpD-39-Z3Z" customClass="WelcomeViewController" customModule="Flash_Chat_iOS13" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="kpD-39-Z3Z" customClass="WelcomeViewController" customModule="FlashTalk" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iQy-SG-Cyj">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -46,7 +46,7 @@
                                     <segue destination="9eU-xI-opL" kind="show" id="Cwa-HB-Jub"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⚡️FlashTalk" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E0C-6B-zuS">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⚡️FlashTalk" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E0C-6B-zuS" customClass="CLTypingLabel" customModule="CLTypingLabel">
                                 <rect key="frame" x="52" y="392" width="286" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="yd1-xs-3Xf"/>
@@ -83,7 +83,7 @@
         <!--Register View Controller-->
         <scene sceneID="GUc-XB-4ec">
             <objects>
-                <viewController id="9eU-xI-opL" customClass="RegisterViewController" customModule="Flash_Chat_iOS13" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9eU-xI-opL" customClass="RegisterViewController" customModule="FlashTalk" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hqs-T6-tM0">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -168,7 +168,7 @@
                     <connections>
                         <outlet property="emailTextfield" destination="qtg-yO-ft5" id="iNR-b9-aoK"/>
                         <outlet property="passwordTextfield" destination="X19-7G-J8S" id="BBW-fs-Ydk"/>
-                        <segue destination="U8x-Gn-5fU" kind="show" id="Sbw-7p-VXF"/>
+                        <segue destination="U8x-Gn-5fU" kind="show" identifier="RegisterToChat" id="Sbw-7p-VXF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Du7-5D-Y16" sceneMemberID="firstResponder"/>
@@ -178,7 +178,7 @@
         <!--Login View Controller-->
         <scene sceneID="XOd-qk-lku">
             <objects>
-                <viewController id="XHY-y6-mQ1" customClass="LoginViewController" customModule="Flash_Chat_iOS13" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="XHY-y6-mQ1" customClass="LoginViewController" customModule="FlashTalk" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uXj-5O-LXh">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -263,7 +263,7 @@
                     <connections>
                         <outlet property="emailTextfield" destination="ptK-X4-kyi" id="y6n-zJ-A7e"/>
                         <outlet property="passwordTextfield" destination="j26-AC-FIG" id="bMr-Yd-NpF"/>
-                        <segue destination="U8x-Gn-5fU" kind="show" id="I6A-YN-dlE"/>
+                        <segue destination="U8x-Gn-5fU" kind="show" identifier="LoginToChat" id="I6A-YN-dlE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="320-rB-dPK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -273,7 +273,7 @@
         <!--Chat View Controller-->
         <scene sceneID="yaZ-mj-aD7">
             <objects>
-                <viewController id="U8x-Gn-5fU" customClass="ChatViewController" customModule="Flash_Chat_iOS13" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="U8x-Gn-5fU" customClass="ChatViewController" customModule="FlashTalk" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nfN-Br-7gC">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -371,8 +371,13 @@
             <point key="canvasLocation" x="-86.153846153846146" y="134.36018957345971"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="E0C-6B-zuS">
+            <size key="intrinsicContentSize" width="284" height="60"/>
+        </designable>
+    </designables>
     <inferredMetricsTieBreakers>
-        <segue reference="I6A-YN-dlE"/>
+        <segue reference="Sbw-7p-VXF"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="paperplane.fill" catalog="system" width="128" height="118"/>
