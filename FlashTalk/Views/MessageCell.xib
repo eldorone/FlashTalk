@@ -30,7 +30,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" name="BrandOrange"/>
+                                <color key="backgroundColor" name="BrandPurple"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="Zxi-pP-YF0" secondAttribute="bottom" constant="10" id="N5X-0K-Uww"/>
                                     <constraint firstItem="Zxi-pP-YF0" firstAttribute="leading" secondItem="Vl9-IX-zGj" secondAttribute="leading" constant="10" id="bxO-Qp-PoQ"/>
@@ -66,8 +66,8 @@
     </objects>
     <resources>
         <image name="MeAvatar" width="36" height="36"/>
-        <namedColor name="BrandOrange">
-            <color red="0.94716221089999997" green="0.4709849196" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        <namedColor name="BrandPurple">
+            <color red="0.67500001192092896" green="0.43500000238418579" blue="0.9179999828338623" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>
