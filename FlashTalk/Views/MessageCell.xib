@@ -59,6 +59,7 @@
             <connections>
                 <outlet property="label" destination="Zxi-pP-YF0" id="xhv-fe-e0u"/>
                 <outlet property="messageBubble" destination="Vl9-IX-zGj" id="1DG-MG-2oi"/>
+                <outlet property="rightImageView" destination="DvC-yu-dBW" id="izP-jF-f19"/>
             </connections>
             <point key="canvasLocation" x="136.95652173913044" y="78.683035714285708"/>
         </tableViewCell>
