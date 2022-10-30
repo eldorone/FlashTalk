@@ -19,6 +19,8 @@
 		49E607D3290D83BE0048BDD5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49E607D2290D83BE0048BDD5 /* GoogleService-Info.plist */; };
 		49E607D6290D8F770048BDD5 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 49E607D5290D8F770048BDD5 /* FirebaseAuth */; };
 		49E607D8290D8F770048BDD5 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 49E607D7290D8F770048BDD5 /* FirebaseFirestore */; };
+		49F29ACB290EA3F000903C81 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F29ACA290EA3F000903C81 /* Constants.swift */; };
+		49F29ACD290EAE9D00903C81 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F29ACC290EAE9D00903C81 /* Message.swift */; };
 		64152B56931FB96BA5118754 /* Pods_FlashTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB2870B02F71C821C9F7642 /* Pods_FlashTalk.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +39,8 @@
 		49E607CE290D48820048BDD5 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		49E607D0290D48BA0048BDD5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		49E607D2290D83BE0048BDD5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		49F29ACA290EA3F000903C81 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		49F29ACC290EAE9D00903C81 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		BEFAEA211E145ACDBA4AD7D7 /* Pods-FlashTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlashTalk.release.xcconfig"; path = "Target Support Files/Pods-FlashTalk/Pods-FlashTalk.release.xcconfig"; sourceTree = "<group>"; };
 		EAB2870B02F71C821C9F7642 /* Pods_FlashTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlashTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -94,6 +98,7 @@
 				49E607BE290D44690048BDD5 /* LaunchScreen.storyboard */,
 				49E607C1290D44690048BDD5 /* Info.plist */,
 				49E607D2290D83BE0048BDD5 /* GoogleService-Info.plist */,
+				49F29ACA290EA3F000903C81 /* Constants.swift */,
 			);
 			path = FlashTalk;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 		49E607CB290D460B0048BDD5 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				49F29ACC290EAE9D00903C81 /* Message.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -242,6 +248,8 @@
 				49E607B8290D44660048BDD5 /* ChatViewController.swift in Sources */,
 				49E607CF290D48820048BDD5 /* RegisterViewController.swift in Sources */,
 				49E607B4290D44660048BDD5 /* AppDelegate.swift in Sources */,
+				49F29ACB290EA3F000903C81 /* Constants.swift in Sources */,
+				49F29ACD290EAE9D00903C81 /* Message.swift in Sources */,
 				49E607B6290D44660048BDD5 /* SceneDelegate.swift in Sources */,
 				49E607CD290D48670048BDD5 /* WelcomViewController.swift in Sources */,
 			);

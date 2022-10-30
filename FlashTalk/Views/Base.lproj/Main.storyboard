@@ -342,7 +342,13 @@
                             <constraint firstItem="Obw-bm-cTD" firstAttribute="leading" secondItem="gKL-uy-rd7" secondAttribute="leading" id="uza-r6-VC7"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="2iC-us-HCY"/>
+                    <navigationItem key="navigationItem" id="2iC-us-HCY">
+                        <barButtonItem key="rightBarButtonItem" title="Log out" id="AsR-ZF-lEl">
+                            <connections>
+                                <action selector="logOutButtonPressed:" destination="U8x-Gn-5fU" id="YAp-5u-6lO"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="messageTextfield" destination="V5O-AV-uTp" id="RYc-If-4KT"/>
                         <outlet property="tableView" destination="Obw-bm-cTD" id="pOK-0D-GZ0"/>

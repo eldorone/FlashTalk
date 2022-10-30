@@ -20,7 +20,7 @@ class RegisterViewController: UIViewController {
                     print(errorMessage)
                 } else {
                     //Navigate to the ChatViewController through the RegisterViewController
-                    self.performSegue(withIdentifier: "RegisterToChat", sender: self)
+                    self.performSegue(withIdentifier: K.registerSegue, sender: self)
                 }
             }
         }
