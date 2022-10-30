@@ -15,14 +15,14 @@ class WelcomeViewController: UIViewController {
         super.viewDidLoad()
         
         titleLabel.text = ""
-        var charactIndex = 0.0
+        var charIndex = 0.0
         let titleText = K.appName
 
         for letter in titleText {
-            Timer.scheduledTimer(withTimeInterval: 0.1 * charactIndex, repeats: false ) { (timer) in
+            Timer.scheduledTimer(withTimeInterval: 0.1 * charIndex, repeats: false ) { (timer) in
                 self.titleLabel.text?.append(letter)
             }
-            charactIndex += 1
+            charIndex += 1
         }
 
        
