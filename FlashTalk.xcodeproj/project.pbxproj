@@ -21,6 +21,8 @@
 		49E607D8290D8F770048BDD5 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 49E607D7290D8F770048BDD5 /* FirebaseFirestore */; };
 		49F29ACB290EA3F000903C81 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F29ACA290EA3F000903C81 /* Constants.swift */; };
 		49F29ACD290EAE9D00903C81 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F29ACC290EAE9D00903C81 /* Message.swift */; };
+		49F29AD0290ECDC600903C81 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F29ACE290ECDC600903C81 /* MessageCell.swift */; };
+		49F29AD1290ECDC600903C81 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49F29ACF290ECDC600903C81 /* MessageCell.xib */; };
 		64152B56931FB96BA5118754 /* Pods_FlashTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB2870B02F71C821C9F7642 /* Pods_FlashTalk.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +43,8 @@
 		49E607D2290D83BE0048BDD5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		49F29ACA290EA3F000903C81 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		49F29ACC290EAE9D00903C81 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		49F29ACE290ECDC600903C81 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		49F29ACF290ECDC600903C81 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 		BEFAEA211E145ACDBA4AD7D7 /* Pods-FlashTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlashTalk.release.xcconfig"; path = "Target Support Files/Pods-FlashTalk/Pods-FlashTalk.release.xcconfig"; sourceTree = "<group>"; };
 		EAB2870B02F71C821C9F7642 /* Pods_FlashTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlashTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -107,6 +111,8 @@
 			isa = PBXGroup;
 			children = (
 				49E607B9290D44660048BDD5 /* Main.storyboard */,
+				49F29ACE290ECDC600903C81 /* MessageCell.swift */,
+				49F29ACF290ECDC600903C81 /* MessageCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -205,6 +211,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49F29AD1290ECDC600903C81 /* MessageCell.xib in Resources */,
 				49E607C0290D44690048BDD5 /* LaunchScreen.storyboard in Resources */,
 				49E607D3290D83BE0048BDD5 /* GoogleService-Info.plist in Resources */,
 				49E607BD290D44690048BDD5 /* Assets.xcassets in Resources */,
@@ -252,6 +259,7 @@
 				49F29ACD290EAE9D00903C81 /* Message.swift in Sources */,
 				49E607B6290D44660048BDD5 /* SceneDelegate.swift in Sources */,
 				49E607CD290D48670048BDD5 /* WelcomViewController.swift in Sources */,
+				49F29AD0290ECDC600903C81 /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
