@@ -313,7 +313,7 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" name="BrandPurple"/>
+                                <color key="backgroundColor" name="BrandOrange"/>
                                 <constraints>
                                     <constraint firstItem="V5O-AV-uTp" firstAttribute="leading" secondItem="q5L-3X-pAg" secondAttribute="leading" constant="20" id="3MD-FD-qHc"/>
                                     <constraint firstItem="681-VS-kGB" firstAttribute="top" secondItem="q5L-3X-pAg" secondAttribute="top" constant="20" id="Tne-n8-cmP"/>
@@ -325,7 +325,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="gKL-uy-rd7"/>
-                        <color key="backgroundColor" name="BrandPurple"/>
+                        <color key="backgroundColor" name="BrandOrange"/>
                         <constraints>
                             <constraint firstItem="q5L-3X-pAg" firstAttribute="leading" secondItem="gKL-uy-rd7" secondAttribute="leading" id="499-UB-qYn"/>
                             <constraint firstItem="Obw-bm-cTD" firstAttribute="top" secondItem="gKL-uy-rd7" secondAttribute="top" id="MCm-hV-P0D"/>
