@@ -19,12 +19,12 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RlN-9E-0qd">
                                 <rect key="frame" x="0.0" y="749" width="390" height="61"/>
-                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                <color key="backgroundColor" name="BrandOrange"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="61" id="gg4-3f-oai"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="Log In">
+                                <state key="normal" title="Sign in">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -33,7 +33,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wea-I6-DOc">
                                 <rect key="frame" x="0.0" y="693" width="390" height="48"/>
-                                <color key="backgroundColor" name="BrandLightBlue"/>
+                                <color key="backgroundColor" red="1" green="0.55117796371269456" blue="0.0" alpha="0.51704780629139069" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="CH5-RQ-A1q"/>
                                 </constraints>
@@ -42,17 +42,21 @@
                                     <color key="titleColor" name="BrandBlue"/>
                                     <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <buttonConfiguration key="configuration" style="plain" title="Sign up">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="9eU-xI-opL" kind="show" id="Cwa-HB-Jub"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⚡️FlashTalk" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E0C-6B-zuS">
-                                <rect key="frame" x="52" y="392" width="286" height="60"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="⚡️FlashTalk" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E0C-6B-zuS">
+                                <rect key="frame" x="32" y="392" width="286" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="yd1-xs-3Xf"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="50"/>
-                                <color key="textColor" name="BrandBlue"/>
+                                <color key="textColor" name="BrandOrange"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -191,7 +195,7 @@
                                     </imageView>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ptK-X4-kyi">
                                         <rect key="frame" x="49" y="51" width="293" height="45"/>
-                                        <color key="textColor" name="BrandBlue"/>
+                                        <color key="textColor" name="BrandOrange"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
@@ -216,7 +220,7 @@
                                     </imageView>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="j26-AC-FIG">
                                         <rect key="frame" x="49" y="48" width="293" height="45"/>
-                                        <color key="textColor" name="BrandBlue"/>
+                                        <color key="textColor" name="BrandOrange"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
@@ -249,7 +253,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="YTS-2I-xdB"/>
-                        <color key="backgroundColor" red="0.1647058824" green="0.78039215689999997" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" name="BrandOrange"/>
                         <constraints>
                             <constraint firstItem="T2c-DV-cX5" firstAttribute="top" secondItem="YTS-2I-xdB" secondAttribute="top" id="8fs-ov-Ioo"/>
                             <constraint firstItem="T2c-DV-cX5" firstAttribute="leading" secondItem="YTS-2I-xdB" secondAttribute="leading" id="C8F-cz-vF1"/>
@@ -382,14 +386,14 @@
         <namedColor name="BrandLightPurple">
             <color red="0.98000001907348633" green="0.9649999737739563" blue="0.99599999189376831" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
+        <namedColor name="BrandOrange">
+            <color red="0.94700002670288086" green="0.47099998593330383" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
         <namedColor name="BrandPurple">
             <color red="0.67500001192092896" green="0.43500000238418579" blue="0.9179999828338623" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemTealColor">
-            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
