@@ -315,7 +315,7 @@
                                             <constraint firstAttribute="height" constant="40" id="jSc-zH-txo"/>
                                         </constraints>
                                         <color key="textColor" name="BrandOrange"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="681-VS-kGB">
