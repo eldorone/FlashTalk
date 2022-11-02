@@ -122,9 +122,9 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ne-aG-ikV">
                                         <rect key="frame" x="0.0" y="126" width="390" height="51"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                         <state key="normal" title="Register">
-                                            <color key="titleColor" name="BrandOrange"/>
+                                            <color key="titleColor" name="BrandBlack"/>
                                         </state>
                                         <connections>
                                             <action selector="registerPressed:" destination="9eU-xI-opL" eventType="touchUpInside" id="xxI-rs-BLr"/>
@@ -253,7 +253,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="YTS-2I-xdB"/>
-                        <color key="backgroundColor" name="BrandBlack"/>
+                        <color key="backgroundColor" name="BrandOrange"/>
                         <constraints>
                             <constraint firstItem="T2c-DV-cX5" firstAttribute="top" secondItem="YTS-2I-xdB" secondAttribute="top" id="8fs-ov-Ioo"/>
                             <constraint firstItem="T2c-DV-cX5" firstAttribute="leading" secondItem="YTS-2I-xdB" secondAttribute="leading" id="C8F-cz-vF1"/>
@@ -372,7 +372,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="I6A-YN-dlE"/>
+        <segue reference="Sbw-7p-VXF"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="paperplane.fill" catalog="system" width="128" height="118"/>
