@@ -56,6 +56,7 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" name="BrandBlack"/>
             <connections>
                 <outlet property="label" destination="Zxi-pP-YF0" id="xhv-fe-e0u"/>
                 <outlet property="messageBubble" destination="Vl9-IX-zGj" id="1DG-MG-2oi"/>
@@ -66,6 +67,9 @@
     </objects>
     <resources>
         <image name="MeAvatar" width="36" height="36"/>
+        <namedColor name="BrandBlack">
+            <color red="0.96465145808368635" green="1" blue="0.96682543319395509" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
         <namedColor name="BrandOrange">
             <color red="1" green="0.45098039215686275" blue="0.11372549019607843" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
