@@ -44,7 +44,7 @@
                                 </state>
                                 <buttonConfiguration key="configuration" style="plain" title="Sign Up">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
-                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseForegroundColor" red="0.51572199860000001" green="1" blue="0.52992329029999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="9eU-xI-opL" kind="show" id="Cwa-HB-Jub"/>
@@ -253,7 +253,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="YTS-2I-xdB"/>
-                        <color key="backgroundColor" name="BrandOrange"/>
+                        <color key="backgroundColor" name="BrandBlack"/>
                         <constraints>
                             <constraint firstItem="T2c-DV-cX5" firstAttribute="top" secondItem="YTS-2I-xdB" secondAttribute="top" id="8fs-ov-Ioo"/>
                             <constraint firstItem="T2c-DV-cX5" firstAttribute="leading" secondItem="YTS-2I-xdB" secondAttribute="leading" id="C8F-cz-vF1"/>
@@ -372,11 +372,14 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Sbw-7p-VXF"/>
+        <segue reference="I6A-YN-dlE"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="paperplane.fill" catalog="system" width="128" height="118"/>
         <image name="textfield" width="298" height="93"/>
+        <namedColor name="BrandBlack">
+            <color red="0.098039215686274508" green="0.10196078431372549" blue="0.098039215686274508" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
         <namedColor name="BrandBlue">
             <color red="0.16500000655651093" green="0.77999997138977051" blue="0.99599999189376831" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
