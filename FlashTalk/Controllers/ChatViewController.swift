@@ -14,6 +14,8 @@ class ChatViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var messageTextfield: UITextField!
     
+    let dataBase = Firestore.firestore()
+    
     var messages: [Message] = [
         Message(sender: "elone@98.com", body: "Hey!"),
         Message(sender: "eldor@gmail.com", body: "Yo whadup!"),
@@ -33,7 +35,7 @@ class ChatViewController: UIViewController {
     @IBAction func sendPressed(_ sender: UIButton) {
         
         if let messageBody = messageTextfield.text, let messageSender = Auth.auth().currentUser?.email {
-            
+            dataBase.collection(K.FStore.collectionName)
         }
     }
     
