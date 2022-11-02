@@ -44,7 +44,8 @@ class ChatViewController: UIViewController {
             } else {
                 if let snapshotDocuments = querySnapshot?.documents {
                     for doc in snapshotDocuments {
-                        print(doc.data())
+                        let data = doc.data()
+                        let sender = data[K.FStore.senderField]
                     }
                 }
             }
