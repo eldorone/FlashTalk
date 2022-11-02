@@ -42,7 +42,11 @@ class ChatViewController: UIViewController {
             if let e = error {
                 print("There was an issue retrieving data from Firestore, \(e)")
             } else {
-                print("Successfully retrieved data from Firestore")
+                if let snapshotDocuments = querySnapshot?.documents {
+                    for doc in snapshotDocuments {
+                        print(doc.data())
+                    }
+                }
             }
         }
     }
