@@ -38,7 +38,13 @@ class ChatViewController: UIViewController {
     func loadMessages() {
         messages = []
         
-        
+        dataBase.collection(K.FStore.collectionName).getDocuments { (querySnapshot, error) in
+            if let e = error {
+                print("There was an issue retrieving data from Firestore, \(e)")
+            } else {
+                print("Successfully retrieved data from Firestore")
+            }
+        }
     }
     
     @IBAction func sendPressed(_ sender: UIButton) {
