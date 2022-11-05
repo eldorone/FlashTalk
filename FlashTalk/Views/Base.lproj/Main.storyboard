@@ -362,7 +362,8 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="2iC-us-HCY">
-                        <barButtonItem key="leftBarButtonItem" title="Log out" id="AsR-ZF-lEl">
+                        <barButtonItem key="rightBarButtonItem" title="Log out" image="rectangle.portrait.and.arrow.right" catalog="system" id="AsR-ZF-lEl">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <action selector="logOutButtonPressed:" destination="U8x-Gn-5fU" id="YAp-5u-6lO"/>
                             </connections>
@@ -406,6 +407,7 @@
     </inferredMetricsTieBreakers>
     <resources>
         <image name="paperplane.fill" catalog="system" width="128" height="118"/>
+        <image name="rectangle.portrait.and.arrow.right" catalog="system" width="128" height="108"/>
         <image name="textfield" width="298" height="93"/>
         <namedColor name="BrandBlack">
             <color red="0.9649999737739563" green="1" blue="0.96700000762939453" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
