@@ -362,7 +362,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="2iC-us-HCY">
-                        <barButtonItem key="rightBarButtonItem" title="Log out" id="AsR-ZF-lEl">
+                        <barButtonItem key="leftBarButtonItem" title="Log out" id="AsR-ZF-lEl">
                             <connections>
                                 <action selector="logOutButtonPressed:" destination="U8x-Gn-5fU" id="YAp-5u-6lO"/>
                             </connections>
