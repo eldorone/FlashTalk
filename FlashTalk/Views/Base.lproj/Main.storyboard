@@ -50,12 +50,9 @@
                                     <segue destination="9eU-xI-opL" kind="show" id="Cwa-HB-Jub"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="⚡️FlashTalk" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E0C-6B-zuS">
-                                <rect key="frame" x="32" y="392" width="286" height="60"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="yd1-xs-3Xf"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="50"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⚡️FlashTalk⚡️" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E0C-6B-zuS">
+                                <rect key="frame" x="30" y="395" width="330" height="54"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="45"/>
                                 <color key="textColor" name="BrandOrange"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -63,8 +60,10 @@
                         <viewLayoutGuide key="safeArea" id="dPC-Aa-3ye"/>
                         <color key="backgroundColor" name="BrandBlack"/>
                         <constraints>
+                            <constraint firstItem="E0C-6B-zuS" firstAttribute="centerX" secondItem="iQy-SG-Cyj" secondAttribute="centerX" id="Jcb-IU-dHq"/>
                             <constraint firstItem="Wea-I6-DOc" firstAttribute="trailing" secondItem="dPC-Aa-3ye" secondAttribute="trailing" id="K2E-tO-QFa"/>
-                            <constraint firstItem="E0C-6B-zuS" firstAttribute="leading" secondItem="dPC-Aa-3ye" secondAttribute="leading" constant="52" id="QHH-8d-ECr"/>
+                            <constraint firstItem="E0C-6B-zuS" firstAttribute="leading" secondItem="dPC-Aa-3ye" secondAttribute="leading" constant="30" id="QHH-8d-ECr"/>
+                            <constraint firstItem="E0C-6B-zuS" firstAttribute="centerY" secondItem="iQy-SG-Cyj" secondAttribute="centerY" id="hDE-ZP-3ab"/>
                             <constraint firstItem="Wea-I6-DOc" firstAttribute="leading" secondItem="dPC-Aa-3ye" secondAttribute="leading" id="itc-eA-X8h"/>
                             <constraint firstItem="E0C-6B-zuS" firstAttribute="centerX" secondItem="iQy-SG-Cyj" secondAttribute="centerX" id="jJ8-mw-ZQu"/>
                             <constraint firstItem="RlN-9E-0qd" firstAttribute="top" secondItem="Wea-I6-DOc" secondAttribute="bottom" constant="8" id="mQp-9Y-PhM"/>
