@@ -14,6 +14,15 @@ class WelcomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+//        titleLabel.center = self.view.center
+//        titleLabel.center.x = self.view.center.x
+//        titleLabel.center.y = self.view.center.y
+        
+        titleLabel.translatesAutoresizingMaskIntoConstraints = false
+        titleLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        titleLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+        titleLabel.textAlignment = .center
+        
         titleLabel.text = ""
         var charactIndex = 0.0
         let titleText = K.appName
