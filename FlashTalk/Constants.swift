@@ -2,7 +2,7 @@
 //  Constants.swift
 //  FlashTalk
 //
-//  Created by Eldor Alikuvatov on 2022/10/30.
+//  Created by Eldor Alikuvvatov on 2022/10/30.
 //
 
 struct K {
